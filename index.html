@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan 2025 Bros</title>
+    <style>
+        /* Wrapper style */
+        .page-wrapper {
+            border: 2px solid black; /* Add border around the page */
+            padding: 20px; /* Add padding to create space between border and content */
+            max-width: 800px; /* Limit maximum width of the page */
+            margin: 0 auto; /* Center the page horizontally */
+        }
+        /* Title style */
+        h1 {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        /* Container for the images */
+        .image-container {
+            display: flex; /* Use flexbox layout */
+            justify-content: space-between; /* Ensure space between images */
+            gap: 10px; /* Add spacing between images */
+            flex-wrap: wrap; /* Allow images to wrap to next line */
+        }
+        /* Image style */
+        img {
+            border: 2px solid black; /* Add border to images */
+            border-radius: 10px; /* Add rounded corners to images */
+            padding: 5px; /* Add spacing between images and border */
+            max-width: calc(50% - 5px); /* Ensure images don't exceed container width */
+            width: auto; /* Maintain aspect ratio */
+            height: auto; /* Maintain aspect ratio */
+        }
+        /* Adjust the width of the third image */
+        img:last-child {
+            max-width: 100%; /* Ensure the third image spans the entire width */
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <h1>God Bless Japan</h1>
+        <div class="image-container">
+            <img src="2.jpg" alt="Image 2" style="min-width: 500px;">
+            <img src="3.jpg" alt="Image 3" style="min-width: 500px;">
+        </div>
+        <img src="4.jpg" alt="Image 4" width="100%"> <!-- Make sure the third image spans the entire width -->
+    </div>
+</body>
+</html>
